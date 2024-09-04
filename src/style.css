@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #cca2e0;
+  --imp-text-color: #6590e4;
 }
 
 .purple {
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #2066c7;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #4778DC !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #4778DC;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -281,17 +281,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #4778DC;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #4778DC !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #6a78c7 !important;
 }
 
 @media (max-width: 767px) {
@@ -371,7 +371,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #4778DC;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +379,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #7798d9;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #4778DC;
+  box-shadow: 0 0 5px #4778DC;
+  text-shadow: 0 0 2px #4778DC;
 }
 
 .social-icons {
@@ -395,14 +395,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #4778DC !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(202, 206, 249);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -428,7 +428,7 @@ button:focus {
 
 .footer h3 {
   font-size: 1em;
-  color: white !important;
+  color: rgb(20, 20, 20) !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
@@ -448,7 +448,8 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  color: #262626;
+  /* background-image: var(--section-background-color) !important; */
 }
 
 .project-card {
@@ -460,8 +461,8 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  box-shadow: 0 4px 5px 3px #9cb0d9 !important;
+  color: rgb(20, 20, 20) !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -470,62 +471,20 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(130, 154, 213, 0.561) !important;
 }
 
-.blog-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
-}
-
-.blog-card-view {
-  background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
-  transition: all 0.5s ease 0s !important;
-  height: 100% !important;
-}
-
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.blog-link:hover {
-  cursor: pointer !important;
-}
-
-.blog-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
-}
-
-.card-img-top {
-  padding: 20px !important;
-  opacity: 0.8 !important;
-  border-radius: 10px !important;
-}
-
-.blog-img {
-  padding: 0px !important;
-  opacity: 0.8 !important;
-  border-radius: 0px !important;
-}
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #4778DC !important;
+  border-color: #143372 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #4778DC !important;
+  border-color: #143372 !important;
 }
 .btn:focus {
   outline: none !important;
@@ -547,7 +506,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: rgb(20, 20, 20) !important;
 }
 
 .tech-icons {
@@ -555,12 +514,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #7b9cde !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px #bfceee !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -574,7 +533,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid #4778DC !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -583,7 +542,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: rgb(20, 20, 20) !important;
   background-color: transparent !important;
 }
 
@@ -606,8 +565,9 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: rgb(241, 241, 241) !important;
+  color: rgb(20, 20, 20) !important;
 }
 
 .resume {

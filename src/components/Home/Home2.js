@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/about1.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -14,44 +14,49 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-        <Col md={8} className="home-about-description">
-  <h1 style={{ fontSize: "2.6em" }}>
-    LET ME <span className="purple"> INTRODUCE </span> MYSELF
-  </h1>
-  <p className="home-about-body">
-    I have a passion for programming and continuously strive to enhance my skills. Over time, I have developed a strong foundation in
-    <i>
-      <b className="purple"> C++, JavaScript, and HTML/CSS. </b>
-    </i>
-    <br />
-    <br />
-    My field of interest includes building innovative &nbsp;
-    <i>
-      <b className="purple">Web Technologies and Products</b>
-    </i>
-    , with a keen focus on developing seamless user experiences and responsive interfaces.
-    <br />
-    <br />
-    I am particularly drawn to <b className="purple">front-end development</b>, leveraging
-    <i>
-      <b className="purple"> React.js</b>
-    </i>
-    &nbsp; to create dynamic and interactive web applications.
-    <br />
-    <br />
-    I also have experience in working with
-    <i>
-      <b className="purple"> RESTful APIs</b>
-    </i>
-    &nbsp; and integrating them into front-end projects to ensure efficient data communication and processing.
-    <br />
-    <br />
-    Whenever possible, I apply my passion for problem-solving and product development using modern technologies and tools like
-    <i>
-      <b className="purple"> Git, GitHub, and Firebase</b>
-    </i>.
-  </p>
-</Col>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body">
+              I have a passion for programming and continuously strive to
+              enhance my skills. Over time, I have developed a strong foundation
+              in
+              <i>
+                <b className="purple"> C++, JavaScript, and HTML/CSS. </b>
+              </i>
+              <br />
+              <br />
+              My field of interest includes building innovative &nbsp;
+              <i>
+                <b className="purple">Web Technologies and Products</b>
+              </i>
+              , with a keen focus on developing seamless user experiences and
+              responsive interfaces.
+              <br />
+              <br />I am particularly drawn to{" "}
+              <b className="purple">front-end development</b>, leveraging
+              <i>
+                <b className="purple"> React.js</b>
+              </i>
+              &nbsp; to create dynamic and interactive web applications.
+              <br />
+              <br />I also have experience in working with
+              <i>
+                <b className="purple"> RESTful APIs</b>
+              </i>
+              &nbsp; and integrating them into front-end projects to ensure
+              efficient data communication and processing.
+              <br />
+              <br />
+              Whenever possible, I apply my passion for problem-solving and
+              product development using modern technologies and tools like
+              <i>
+                <b className="purple"> Git, GitHub, and Firebase</b>
+              </i>
+              .
+            </p>
+          </Col>
 
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -68,7 +73,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/ravindra9555"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,19 +81,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://linkedin.com/in/ravindra-kumar-99a1301b2/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -98,7 +94,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/ravindra2.dev"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
