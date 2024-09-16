@@ -6,10 +6,11 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-
+import HomeHelmet from "../../helmet/HomeHelmet";
 function About() {
   return (
     <Container fluid className="">
+      <HomeHelmet/>
     {/* <Container fluid className="about-section"> */}
       {/* <Particle /> */}
       <Container>

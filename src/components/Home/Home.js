@@ -4,10 +4,11 @@ import homeLogo from "../../Assets/home1.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-
+ import HomeHelmet from "../../helmet/HomeHelmet";
 function Home() {
   return (
     <section>
+      <HomeHelmet/>
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ravindra ",
+  "name": "Ravindra Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -9,7 +9,12 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
+
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "description": "A portfolio website of Ravindra Kumar, showcasing skills, projects, and experience in front-end development, ReactJS, and web technologies.",
+  "lang": "en"
 }
