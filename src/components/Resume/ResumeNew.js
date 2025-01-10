@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Ravindra_resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
+import PortfolioHelmet from "../../helmet/PortfolioHelmet";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -17,7 +17,9 @@ function ResumeNew() {
 
   return (
     <div>
+      
       <Container fluid className="resume-section">
+      <PortfolioHelmet />
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button

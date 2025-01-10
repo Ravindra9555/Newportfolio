@@ -16,7 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+ import PortfolioHelmet from "./helmet/PortfolioHelmet";
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -30,6 +30,7 @@ function App() {
 
   return (
     <Router>
+      <PortfolioHelmet />
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
