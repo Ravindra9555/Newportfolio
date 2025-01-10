@@ -31,6 +31,16 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={expense}
+              isBlog={false}
+              title="Expense- Tracker "
+              description="Managing your finances has never been simpler. With ExpenseTrackerPro, you can track your spending, create budgets, and save more effectively—all in one place."
+              ghLink="https://github.com/Ravindra9555/Expense-Tracker-web-application-react-bootstrap.git"
+              demoLink="https://expensetracker-money.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={covid}
               isBlog={false}
               title="Covid Tracker"
