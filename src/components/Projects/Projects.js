@@ -21,12 +21,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={expense}
+              imgPath={shivam}
               isBlog={false}
-              title="Expense- Tracker "
-              description="Managing your finances has never been simpler. With ExpenseTrackerPro, you can track your spending, create budgets, and save more effectively—all in one place."
-              ghLink="https://github.com/Ravindra9555/Expense-Tracker-web-application-react-bootstrap.git"
-              demoLink="https://expensetracker-money.vercel.app/"
+              title="Shivam Medical & Pharmacy"
+              description="Created a website for Shivam Medical Store that allows users to explore the store, book appointments, and Buy Medicines• "
+              ghLink="https://github.com/Ravindra9555/Shivam_medical_MUI"
+              demoLink="https://shivampharmacy.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -61,7 +61,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={shivam}
               isBlog={false}
@@ -70,7 +70,7 @@ function Projects() {
               ghLink="https://github.com/Ravindra9555/Shivam_medical"
               demoLink="https://github.com/Ravindra9555/Shivam_medical"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
