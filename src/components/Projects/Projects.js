@@ -13,6 +13,7 @@ import weather from "../../Assets/Projects/weather.png";
 import expense from "../../Assets/Projects/expense.png";
 import bahelhealth from "../../Assets/Projects/bael.png";
 import saarthi from "../../Assets/Projects/ssarthi.png";
+import projectflow  from "../../Assets/Projects/projectflow.png"
 
 function Projects() {
   // Industry Projects Data
@@ -39,11 +40,19 @@ function Projects() {
   // Personal Projects Data (original projects)
   const personalProjects = [
     {
+      imgPath: projectflow,
+      title: "Project Flow",
+      description: "treamline your workflow with our powerful project management platform designed for individuals and teams of all sizes.Start for Free",
+      ghLink: "https://github.com/Ravindra9555/Shivam_medical_MUI",
+      demoLink: "https://shivampharmacy.vercel.app/",
+      isBlog: false
+    },
+    {
       imgPath: shivam,
       title: "Shivam Medical & Pharmacy",
       description: "E-commerce platform for medical supplies with inventory management.",
-      ghLink: "https://github.com/Ravindra9555/Shivam_medical_MUI",
-      demoLink: "https://shivampharmacy.vercel.app/",
+      ghLink: "https://github.com/Ravindra9555/Project_management_App",
+      demoLink: "https://projectflow-eight.vercel.app/",
       isBlog: false
     },
     {
