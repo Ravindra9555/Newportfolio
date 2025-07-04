@@ -1,5 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
@@ -8,6 +10,7 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  
   DiJava,
 } from "react-icons/di";
 import {
@@ -31,11 +34,16 @@ import {
   siWindows,
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandNextjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
