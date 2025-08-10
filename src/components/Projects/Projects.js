@@ -18,6 +18,22 @@ import projectflow  from "../../Assets/Projects/projectflow.png"
 function Projects() {
   // Industry Projects Data
   const industryProjects = [
+      {
+      imgPath: saarthi,
+      title: "Saarthi Sangha",
+      description: "Mental health support platform providing counseling services.",
+      ghLink: "#",
+      demoLink: "https://saarthisangha.com",
+      isBlog: false
+    },
+      {
+      imgPath: projectflow,
+      title: "Project Flow",
+      description: "treamline your workflow with our powerful project management platform designed for individuals and teams of all sizes.Start for Free",
+      ghLink: "https://github.com/Ravindra9555/Project_management_App",
+      demoLink: "https://projectflow-eight.vercel.app/",
+      isBlog: false
+    },
     {
       imgPath: bahelhealth,
       title: "Bahel Health",
@@ -26,33 +42,19 @@ function Projects() {
       demoLink: "https://bahelhealth.com",
       isBlog: false
     },
-    {
-      imgPath: saarthi,
-      title: "Saarthi Sangha",
-      description: "Mental health support platform providing counseling services.",
-      ghLink: "#",
-      demoLink: "https://saarthisangha.org",
-      isBlog: false
-    },
+  
     
   ];
 
   // Personal Projects Data (original projects)
   const personalProjects = [
-    {
-      imgPath: projectflow,
-      title: "Project Flow",
-      description: "treamline your workflow with our powerful project management platform designed for individuals and teams of all sizes.Start for Free",
-      ghLink: "https://github.com/Ravindra9555/Shivam_medical_MUI",
-      demoLink: "https://shivampharmacy.vercel.app/",
-      isBlog: false
-    },
+  
     {
       imgPath: shivam,
+      ghLink: "https://github.com/Ravindra9555/Shivam_medical_MUI",
       title: "Shivam Medical & Pharmacy",
       description: "E-commerce platform for medical supplies with inventory management.",
-      ghLink: "https://github.com/Ravindra9555/Project_management_App",
-      demoLink: "https://projectflow-eight.vercel.app/",
+      demoLink: "https://shivampharmacy.vercel.app/",
       isBlog: false
     },
     {

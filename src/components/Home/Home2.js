@@ -35,9 +35,9 @@ function Home2() {
               responsive interfaces.
               <br />
               <br />I am particularly drawn to{" "}
-              <b className="purple">front-end development</b>, leveraging
+              <b className="purple">Full stack  development</b>, leveraging
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> React.js , NextJs , Nodejs </b>
               </i>
               &nbsp; to create dynamic and interactive web applications.
               <br />
@@ -84,7 +84,7 @@ function Home2() {
 
               <li className="social-icons">
                 <a
-                  href="https://linkedin.com/in/ravindra-kumar-99a1301b2/"
+                  href="https://linkedin.com/in/ravindra2-dev/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
