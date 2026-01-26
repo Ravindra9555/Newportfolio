@@ -1,8 +1,11 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Fixes the Image Deprecation Warning
-  output: 'standalone', // Important for Vercel
+  // Try removing this or changing to 'export'
+  // output: 'standalone', 
+  // OR try:
+  output: 'export', // If you're doing static export
+  
   images: {
+    unoptimized: true, // Required for static export
     remotePatterns: [
       {
         protocol: 'https',
@@ -11,8 +14,4 @@ const nextConfig = {
       },
     ],
   },
-  // Setting this to false prevents build errors with #anchor links
-  typedRoutes: false, 
 }
-
-module.exports = nextConfig
