@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Fixes the Image Deprecation Warning
+  output: 'standalone', // Important for Vercel
   images: {
     remotePatterns: [
       {
